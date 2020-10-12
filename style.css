@@ -131,20 +131,22 @@ textarea::placeholder{
 .sub input[type='submit']:active{
     border-color: #755bea;
 }
-//form{
-    max-width: 100%;
+form{
+    max-width: 35%;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 470px;
     background-color: goldenrod;
     padding: 20px; 
     box-sizing: border-box;
-}//
+}
 .gallery{
-    border: 2px solid #ccc;
+    border: 2px solid #000;
+    box-sizing: auto;
 }
 .gallery img{
-    width: 75%;
+    width: 80%;
     height: auto;
+    padding: 20px;
 }
 .des{
     padding: 10px;
@@ -156,4 +158,3 @@ textarea::placeholder{
     float: left;
     width: 20%;
 }
-
